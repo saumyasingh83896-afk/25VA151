@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+    <fieldset align="center">
+        <h1 align="center">Hotel Room Booking Form</h1>
+        <form action="response.html" name="Hotel Room Booking Form" target="_blank" method="get" align="center">
+        <label for="full name">Full Name:</label>
+        <input type="text" id="full name" name="full name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone" required>
+        <br><br>
+        <label for="check-in date">Check-in Date:</label>
+        <input type="date" id="check-in date" name="check-in date" required>
+        <br><br>
+        <label for="check-out date">Check-out Date:</label>
+        <input type="date" id="check-out date" name="check-out date" required>
+        <br><br>
+        <label for="room type">Room Type:</label>
+        <select name="room type" id="room type">
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+            </select>
+            <br><br>
+            <label for="number of guests">Number of Guests:</label>
+            <input type="number" name="number of guests" id="number of guests" min="1" max="3" required>
+            <br><br>
+            <label for="special requests">Special Requests:</label>
+            <br>
+            <textarea name="special requests" id="special requests" rows="4" column="200"></textarea>
+            <br><br>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Form">
+            </form>
+    </fieldset>
+    
+    
+</body>
+</html>
