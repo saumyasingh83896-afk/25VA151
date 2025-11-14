@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector : CSS combinators </title>
+    <style>
+        
+        div p{
+            color:blue;
+        }
+        div p{
+        
+             background-color: burlywood;
+        }
+        div+p{
+            background-color: brown;
+            font-size: 30px;
+         
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+    
+        ul li{
+            margin:10px;
+            border-right: 1px solid#F04;
+            padding-right: 20px;
+        }
+        ul li:first-child{
+            font-size: 30px;color:aqua;
+
+        }
+        ul li::first-letter{
+font-size: 30px; color:chocolate;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <!--first end-->
+    <div class ="text">
+        <h1> hello ABES </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minima ut doloribus quis autem unde dolorem rem magnam odit natus fugiat reprehenderit voluptatum asperiores explicabo dolor perferendis culpa, cupiditate neque.</p>
+    </div>
+    <!--second end-->
+    <div>
+    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore repudiandae illum adipisci, sed nesciunt sunt molestiae officia atque qui, ratione, mollitia quia eveniet fugit numquam. Necessitatibus quas dignissimos fuga nisi.</li>
+    </div>
+    <p>
+        <h1>Third para</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore natus cupiditate quasi dolore doloremque? Recusandae eaque blanditiis, nostrum, magni officia aliquid debitis voluptatibus explicabo nesciunt, aliquam consequuntur ullam commodi veniam?
+    </p>
+    <a href="">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eos, ex vel nisi cupiditate consequuntur odio natus neque omnis consectetur, maxime fugit animi dolores voluptatum tempora eaque velit tenetur nihil?</p>
+    </a>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li> class</li>
+        </ul>
+
+</body>
+</html>
